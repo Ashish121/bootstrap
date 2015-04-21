@@ -1,0 +1,81 @@
+/* CSS Document */
+
+.rating:not(:checked) > input {
+    position:absolute;
+    left:-9999px;
+    clip:rect(1,1,1,1);
+}
+
+#rating_1:not(:checked) > label {
+    float:right;
+    width:17px;
+	padding:0 .1em 0 0;
+	border-left:.1em solid #fff;/* make space between content*/
+	overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:0.9;
+    text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+#rating_1:not(:checked) > label:before {
+    content:'\00a0 \00a0 \00a0 ';
+    background-color: #c7c5c5;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;	
+}
+
+#rating_1 > input:checked ~ label:before {
+	content:'\00a0 \00a0 \00a0 ';
+	background-color: #4bce32;
+}
+
+#rating_1:not(:checked) :hover ~ label:before {
+content:'\00a0 \00a0 \00a0 ';
+background-color: #4bcf32;
+
+}
+
+fieldset{
+    position:absolute;
+	top:260px;
+	left:730px;
+}
+fieldset2{
+    position:absolute;
+	top:230px;
+	left:730px;
+}
+fieldset3{
+    position:absolute;
+	top:240px;
+	left:770px;
+}
+fieldset4{
+    position:absolute;
+	top:282px;
+	left:770px;
+}
+fieldset4{
+    position:absolute;
+	top:282px;
+	left:770px;
+}fieldset5{
+    position:absolute;
+	top:320px;
+	left:770px;
+}
+fieldset6{
+    position:absolute;
+	
+	left:770px;
+}
+fieldset7{
+    position:absolute;
+	
+	left:230px;
+	top:260px;
+}
+
